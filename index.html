@@ -10,12 +10,12 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body class="dark">
     <div id="container">
       <div id="header">
         <h1>Interactive Storybook</h1>
         <div id="dark-mode-toggle">
-          <input type="checkbox" class="checkbox" id="checkbox" />
+          <input type="checkbox" class="checkbox" id="checkbox" checked />
           <label for="checkbox" class="checkbox-label">
             <i class="fas fa-moon"></i>
             <i class="fas fa-sun"></i>
@@ -27,6 +27,9 @@
         <div id="story-text"></div>
         <div id="choices"></div>
       </div>
+      <footer>
+        © 2024 by <a href="https://github.com/debjit-mandal">Debjit Mandal</a>
+      </footer>
     </div>
     <script src="script.js"></script>
   </body>

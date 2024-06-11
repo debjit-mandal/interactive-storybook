@@ -2,14 +2,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const checkbox = document.getElementById('checkbox');
     const body = document.body;
 
+    // Set dark mode by default
+    body.classList.add('dark');
+    checkbox.checked = true;
+
     checkbox.addEventListener('change', () => {
         body.classList.toggle('dark');
         localStorage.setItem('darkMode', body.classList.contains('dark'));
     });
 
-    if (localStorage.getItem('darkMode') === 'true') {
-        body.classList.add('dark');
-        checkbox.checked = true;
+    if (localStorage.getItem('darkMode') === 'false') {
+        body.classList.remove('dark');
+        checkbox.checked = false;
     }
 
     fetch('story.json')

@@ -1,638 +1,638 @@
 {
-	"start": {
-		"text": "You wake up in a mysterious forest. The sunlight barely penetrates the dense canopy. The air is fresh, but there's an eerie silence. What do you do?",
-		"choices": [
-			{
-				"text": "Explore the forest",
-				"next": "explore_forest"
-			},
-			{
-				"text": "Stay where you are and observe",
-				"next": "stay_put"
-			}
-		]
-	},
-	"explore_forest": {
-		"text": "As you walk deeper into the forest, you hear the distant sound of running water and see a narrow path leading to a village.",
-		"choices": [
-			{
-				"text": "Follow the sound of water",
-				"next": "follow_water"
-			},
-			{
-				"text": "Take the path to the village",
-				"next": "enter_village"
-			},
-			{
-				"text": "Climb a nearby tree to get a better view",
-				"next": "climb_tree"
-			}
-		]
-	},
-	"stay_put": {
-		"text": "You sit quietly, listening to the forest. After a while, you notice a small animal approaching curiously. What do you do?",
-		"choices": [
-			{
-				"text": "Follow the animal",
-				"next": "follow_animal"
-			},
-			{
-				"text": "Ignore the animal and start exploring",
-				"next": "explore_forest"
-			}
-		]
-	},
-	"follow_water": {
-		"text": "You follow the sound and find a beautiful, clear stream. The water looks refreshing.",
-		"choices": [
-			{
-				"text": "Drink the water",
-				"next": "drink_water"
-			},
-			{
-				"text": "Rest by the stream",
-				"next": "rest_stream"
-			},
-			{
-				"text": "Follow the stream",
-				"next": "follow_stream"
-			}
-		]
-	},
-	"drink_water": {
-		"text": "The water is cool and refreshing. You feel revitalized and ready to continue your journey.",
-		"choices": [
-			{
-				"text": "Rest by the stream",
-				"next": "rest_stream"
-			},
-			{
-				"text": "Follow the stream",
-				"next": "follow_stream"
-			}
-		]
-	},
-	"rest_stream": {
-		"text": "You rest by the stream, feeling the cool breeze and listening to the soothing sounds of water. You feel rejuvenated.",
-		"choices": [
-			{
-				"text": "Continue exploring",
-				"next": "explore_forest"
-			},
-			{
-				"text": "Follow the stream",
-				"next": "follow_stream"
-			}
-		]
-	},
-	"follow_stream": {
-		"text": "Following the stream, you discover a hidden waterfall with a cave behind it.",
-		"choices": [
-			{
-				"text": "Explore the cave",
-				"next": "explore_cave"
-			},
-			{
-				"text": "Enjoy the waterfall",
-				"next": "enjoy_waterfall"
-			}
-		]
-	},
-	"explore_cave": {
-		"text": "You enter the cave and find ancient markings on the walls. It feels like a place of power.",
-		"choices": [
-			{
-				"text": "Investigate the markings",
-				"next": "investigate_markings"
-			},
-			{
-				"text": "Leave the cave",
-				"next": "explore_forest"
-			}
-		]
-	},
-	"investigate_markings": {
-		"text": "The markings tell a story of an ancient civilization and a hidden treasure guarded by a mystical creature.",
-		"choices": [
-			{
-				"text": "Search for the treasure",
-				"next": "search_treasure"
-			},
-			{
-				"text": "Leave the cave",
-				"next": "explore_forest"
-			}
-		]
-	},
-	"search_treasure": {
-		"text": "You follow the clues from the markings and find a hidden chamber with a chest full of gold and jewels.",
-		"choices": [
-			{
-				"text": "Take the treasure",
-				"next": "take_treasure"
-			},
-			{
-				"text": "Leave the treasure",
-				"next": "leave_treasure"
-			}
-		]
-	},
-	"take_treasure": {
-		"text": "As you take the treasure, the ground shakes and a mystical creature appears, guarding the exit.",
-		"choices": [
-			{
-				"text": "Fight the creature",
-				"next": "fight_creature"
-			},
-			{
-				"text": "Try to escape",
-				"next": "try_escape"
-			}
-		]
-	},
-	"leave_treasure": {
-		"text": "You decide to leave the treasure and continue your journey, respecting the ancient guardians.",
-		"choices": [
-			{
-				"text": "Explore the forest",
-				"next": "explore_forest"
-			}
-		]
-	},
-	"fight_creature": {
-		"text": "You prepare to fight the creature, using all your strength and cunning.",
-		"choices": [
-			{
-				"text": "Attack with all your might",
-				"next": "attack_creature"
-			},
-			{
-				"text": "Try to reason with the creature",
-				"next": "reason_creature"
-			}
-		]
-	},
-	"try_escape": {
-		"text": "You try to escape, but the creature blocks your path. You must find another way.",
-		"choices": [
-			{
-				"text": "Fight the creature",
-				"next": "fight_creature"
-			},
-			{
-				"text": "Look for a hidden exit",
-				"next": "hidden_exit"
-			}
-		]
-	},
-	"attack_creature": {
-		"text": "You attack the creature with all your might. After a fierce battle, you manage to defeat it and escape with the treasure.",
-		"choices": [
-			{
-				"text": "Continue your adventure",
-				"next": "explore_forest"
-			}
-		]
-	},
-	"reason_creature": {
-		"text": "You try to reason with the creature, explaining that you mean no harm and are only seeking knowledge.",
-		"choices": [
-			{
-				"text": "The creature understands and lets you pass",
-				"next": "creature_understands"
-			},
-			{
-				"text": "The creature attacks, leaving you no choice but to fight",
-				"next": "attack_creature"
-			}
-		]
-	},
-	"hidden_exit": {
-		"text": "You find a hidden exit in the cave and manage to escape with your life, but without the treasure.",
-		"choices": [
-			{
-				"text": "Continue your adventure",
-				"next": "explore_forest"
-			}
-		]
-	},
-	"creature_understands": {
-		"text": "The creature understands your intentions and allows you to leave with a piece of the treasure as a token of friendship.",
-		"choices": [
-			{
-				"text": "Continue your adventure",
-				"next": "explore_forest"
-			}
-		]
-	},
-	"enjoy_waterfall": {
-		"text": "You enjoy the serenity of the waterfall, feeling at peace with nature.",
-		"choices": [
-			{
-				"text": "Explore the cave behind the waterfall",
-				"next": "explore_cave"
-			},
-			{
-				"text": "Return to the forest",
-				"next": "explore_forest"
-			}
-		]
-	},
-	"enter_village": {
-		"text": "You are greeted by friendly villagers who offer you food and shelter. They tell you stories of the forest.",
-		"choices": [
-			{
-				"text": "Stay and listen to more stories",
-				"next": "village_stories"
-			},
-			{
-				"text": "Thank them and explore the village",
-				"next": "explore_village"
-			}
-		]
-	},
-	"village_stories": {
-		"text": "The villagers tell you about hidden treasures and ancient secrets of the forest.",
-		"choices": [
-			{
-				"text": "Ask about the treasures",
-				"next": "ask_treasures"
-			},
-			{
-				"text": "Ask about the secrets",
-				"next": "ask_secrets"
-			}
-		]
-	},
-	"explore_village": {
-		"text": "You explore the village and find it full of life and history. The villagers are kind and welcoming.",
-		"choices": [
-			{
-				"text": "Stay in the village",
-				"next": "stay_village"
-			},
-			{
-				"text": "Leave the village and return to the forest",
-				"next": "explore_forest"
-			}
-		]
-	},
-	"ask_treasures": {
-		"text": "The villagers tell you about hidden treasures buried deep in the forest. They give you a map.",
-		"choices": [
-			{
-				"text": "Follow the map",
-				"next": "follow_map"
-			},
-			{
-				"text": "Stay in the village",
-				"next": "stay_village"
-			}
-		]
-	},
-	"ask_secrets": {
-		"text": "The villagers reveal ancient secrets and mystical tales about the forest.",
-		"choices": [
-			{
-				"text": "Investigate the secrets",
-				"next": "investigate_secrets"
-			},
-			{
-				"text": "Stay in the village",
-				"next": "stay_village"
-			}
-		]
-	},
-	"stay_village": {
-		"text": "You decide to stay in the village, enjoying the hospitality and learning about the villagers' way of life.",
-		"choices": [
-			{
-				"text": "Start a new adventure",
-				"next": "start"
-			}
-		]
-	},
-	"follow_map": {
-		"text": "The map leads you to a hidden treasure chest filled with gold and jewels.",
-		"choices": [
-			{
-				"text": "Take the treasure",
-				"next": "take_treasure"
-			},
-			{
-				"text": "Leave the treasure",
-				"next": "leave_treasure"
-			}
-		]
-	},
-	"investigate_secrets": {
-		"text": "You discover hidden truths about the forest and its magical properties.",
-		"choices": [
-			{
-				"text": "Use the knowledge",
-				"next": "use_knowledge"
-			},
-			{
-				"text": "Keep it a secret",
-				"next": "keep_secret"
-			}
-		]
-	},
-	"climb_tree": {
-		"text": "You climb the tree and get a better view of the surroundings. You spot a mountain in the distance.",
-		"choices": [
-			{
-				"text": "Head towards the mountain",
-				"next": "mountain_path"
-			},
-			{
-				"text": "Climb down and continue exploring the forest",
-				"next": "continue_exploring"
-			}
-		]
-	},
-	"continue_exploring": {
-		"text": "You discover a beautiful clearing with a sparkling stream. The water looks inviting.",
-		"choices": [
-			{
-				"text": "Rest by the stream",
-				"next": "rest_stream"
-			},
-			{
-				"text": "Keep exploring",
-				"next": "keep_exploring"
-			}
-		]
-	},
-	"follow_animal": {
-		"text": "The animal leads you to a hidden grove with ancient trees and a mystical aura.",
-		"choices": [
-			{
-				"text": "Explore the grove",
-				"next": "explore_grove"
-			},
-			{
-				"text": "Return to where you were",
-				"next": "start"
-			}
-		]
-	},
-	"explore_grove": {
-		"text": "The grove is filled with magical energy. You feel a strong connection with nature.",
-		"choices": [
-			{
-				"text": "Meditate in the grove",
-				"next": "meditate_grove"
-			},
-			{
-				"text": "Explore the grove further",
-				"next": "explore_grove_further"
-			}
-		]
-	},
-	"meditate_grove": {
-		"text": "You meditate in the grove, feeling a deep sense of peace and enlightenment.",
-		"choices": [
-			{
-				"text": "Continue meditating",
-				"next": "meditate_longer"
-			},
-			{
-				"text": "Leave the grove",
-				"next": "leave_grove"
-			}
-		]
-	},
-	"explore_grove_further": {
-		"text": "You find a hidden passage in the grove leading to a secret chamber filled with ancient artifacts.",
-		"choices": [
-			{
-				"text": "Investigate the artifacts",
-				"next": "investigate_artifacts"
-			},
-			{
-				"text": "Leave the grove",
-				"next": "leave_grove"
-			}
-		]
-	},
-	"investigate_artifacts": {
-		"text": "The artifacts reveal ancient knowledge and magical powers.",
-		"choices": [
-			{
-				"text": "Use the artifacts",
-				"next": "use_artifacts"
-			},
-			{
-				"text": "Leave the artifacts",
-				"next": "leave_artifacts"
-			}
-		]
-	},
-	"mountain_path": {
-		"text": "You head towards the mountain, finding a path that leads to its base. The journey is challenging.",
-		"choices": [
-			{
-				"text": "Climb the mountain",
-				"next": "climb_mountain"
-			},
-			{
-				"text": "Set up camp at the base",
-				"next": "camp_base"
-			}
-		]
-	},
-	"climb_mountain": {
-		"text": "You climb the mountain and reach the top, where you find a breathtaking view and a hidden temple.",
-		"choices": [
-			{
-				"text": "Explore the temple",
-				"next": "explore_temple"
-			},
-			{
-				"text": "Rest and enjoy the view",
-				"next": "enjoy_view"
-			}
-		]
-	},
-	"camp_base": {
-		"text": "You set up camp at the base of the mountain, preparing for the climb ahead.",
-		"choices": [
-			{
-				"text": "Climb the mountain in the morning",
-				"next": "climb_mountain"
-			},
-			{
-				"text": "Explore the surrounding area",
-				"next": "explore_surroundings"
-			}
-		]
-	},
-	"explore_temple": {
-		"text": "The temple is filled with ancient relics and mystical symbols.",
-		"choices": [
-			{
-				"text": "Investigate the relics",
-				"next": "investigate_relics"
-			},
-			{
-				"text": "Meditate in the temple",
-				"next": "meditate_temple"
-			}
-		]
-	},
-	"enjoy_view": {
-		"text": "You enjoy the breathtaking view from the top of the mountain, feeling a sense of accomplishment.",
-		"choices": [
-			{
-				"text": "Descend the mountain",
-				"next": "descend_mountain"
-			},
-			{
-				"text": "Stay and rest",
-				"next": "stay_rest"
-			}
-		]
-	},
-	"descend_mountain": {
-		"text": "You descend the mountain, feeling accomplished and ready for new adventures.",
-		"choices": [
-			{
-				"text": "Return to the village",
-				"next": "enter_village"
-			},
-			{
-				"text": "Explore the surrounding area",
-				"next": "explore_surroundings"
-			}
-		]
-	},
-	"stay_rest": {
-		"text": "You rest and enjoy the view for a while longer, feeling rejuvenated.",
-		"choices": [
-			{
-				"text": "Descend the mountain",
-				"next": "descend_mountain"
-			}
-		]
-	},
-	"explore_surroundings": {
-		"text": "You explore the area around the base of the mountain, discovering interesting flora and fauna.",
-		"choices": [
-			{
-				"text": "Return to camp",
-				"next": "camp_base"
-			},
-			{
-				"text": "Keep exploring",
-				"next": "keep_exploring_surroundings"
-			}
-		]
-	},
-	"keep_exploring_surroundings": {
-		"text": "You discover more interesting flora and fauna around the mountain.",
-		"choices": [
-			{
-				"text": "Return to camp",
-				"next": "camp_base"
-			},
-			{
-				"text": "Continue exploring",
-				"next": "explore_surroundings"
-			}
-		]
-	},
-	"use_artifacts": {
-		"text": "You use the artifacts to unlock hidden powers and protect the forest.",
-		"choices": [
-			{
-				"text": "Return to the village",
-				"next": "enter_village"
-			}
-		]
-	},
-	"leave_artifacts": {
-		"text": "You decide to leave the artifacts and continue your adventure.",
-		"choices": [
-			{
-				"text": "Explore the forest",
-				"next": "explore_forest"
-			}
-		]
-	},
-	"use_knowledge": {
-		"text": "You use the knowledge to help the villagers and protect the forest.",
-		"choices": [
-			{
-				"text": "Stay in the village",
-				"next": "stay_village"
-			}
-		]
-	},
-	"keep_secret": {
-		"text": "You decide to keep the knowledge a secret and continue your adventure.",
-		"choices": [
-			{
-				"text": "Explore the forest",
-				"next": "explore_forest"
-			}
-		]
-	},
-	"meditate_temple": {
-		"text": "You meditate in the temple, feeling a deep sense of peace and enlightenment.",
-		"choices": [
-			{
-				"text": "Continue meditating",
-				"next": "meditate_longer_temple"
-			},
-			{
-				"text": "Leave the temple",
-				"next": "leave_temple"
-			}
-		]
-	},
-	"investigate_relics": {
-		"text": "The relics reveal ancient powers and knowledge.",
-		"choices": [
-			{
-				"text": "Use the relics",
-				"next": "use_relics"
-			},
-			{
-				"text": "Leave the temple",
-				"next": "leave_temple"
-			}
-		]
-	},
-	"meditate_longer_temple": {
-		"text": "You feel a profound sense of peace and connection with the universe.",
-		"choices": [
-			{
-				"text": "Leave the temple",
-				"next": "leave_temple"
-			}
-		]
-	},
-	"use_relics": {
-		"text": "You use the relics to gain wisdom and protect the forest.",
-		"choices": [
-			{
-				"text": "Return to the village",
-				"next": "enter_village"
-			}
-		]
-	},
-	"leave_temple": {
-		"text": "You leave the temple, feeling enlightened and ready for new adventures.",
-		"choices": [
-			{
-				"text": "Descend the mountain",
-				"next": "descend_mountain"
-			},
-			{
-				"text": "Explore the surrounding area",
-				"next": "explore_surroundings"
-			}
-		]
-	}
+    "start": {
+        "text": "You wake up in a mysterious forest. The sunlight barely penetrates the dense canopy. The air is fresh, but there's an eerie silence. What do you do?",
+        "choices": [
+            {
+                "text": "Explore the forest",
+                "next": "explore_forest"
+            },
+            {
+                "text": "Stay where you are and observe",
+                "next": "stay_put"
+            }
+        ]
+    },
+    "explore_forest": {
+        "text": "As you walk deeper into the forest, you hear the distant sound of running water and see a narrow path leading to a village. Which path will you take?",
+        "choices": [
+            {
+                "text": "Follow the sound of water",
+                "next": "follow_water"
+            },
+            {
+                "text": "Take the path to the village",
+                "next": "enter_village"
+            },
+            {
+                "text": "Climb a nearby tree to get a better view",
+                "next": "climb_tree"
+            }
+        ]
+    },
+    "stay_put": {
+        "text": "You sit quietly, listening to the forest. After a while, you notice a small, curious animal approaching you. What will you do?",
+        "choices": [
+            {
+                "text": "Follow the animal",
+                "next": "follow_animal"
+            },
+            {
+                "text": "Ignore the animal and start exploring",
+                "next": "explore_forest"
+            }
+        ]
+    },
+    "follow_water": {
+        "text": "You follow the sound of water and find a beautiful, clear stream. The water looks refreshing. What will you do?",
+        "choices": [
+            {
+                "text": "Drink the water",
+                "next": "drink_water"
+            },
+            {
+                "text": "Rest by the stream",
+                "next": "rest_stream"
+            },
+            {
+                "text": "Follow the stream",
+                "next": "follow_stream"
+            }
+        ]
+    },
+    "drink_water": {
+        "text": "The water is cool and refreshing. You feel revitalized and ready to continue your journey. What will you do next?",
+        "choices": [
+            {
+                "text": "Rest by the stream",
+                "next": "rest_stream"
+            },
+            {
+                "text": "Follow the stream",
+                "next": "follow_stream"
+            }
+        ]
+    },
+    "rest_stream": {
+        "text": "You rest by the stream, feeling the cool breeze and listening to the soothing sounds of water. You feel rejuvenated. What will you do next?",
+        "choices": [
+            {
+                "text": "Continue exploring",
+                "next": "explore_forest"
+            },
+            {
+                "text": "Follow the stream",
+                "next": "follow_stream"
+            }
+        ]
+    },
+    "follow_stream": {
+        "text": "Following the stream, you discover a hidden waterfall with a cave behind it. What will you do?",
+        "choices": [
+            {
+                "text": "Explore the cave",
+                "next": "explore_cave"
+            },
+            {
+                "text": "Enjoy the waterfall",
+                "next": "enjoy_waterfall"
+            }
+        ]
+    },
+    "explore_cave": {
+        "text": "You enter the cave and find ancient markings on the walls. It feels like a place of power. What will you do?",
+        "choices": [
+            {
+                "text": "Investigate the markings",
+                "next": "investigate_markings"
+            },
+            {
+                "text": "Leave the cave",
+                "next": "explore_forest"
+            }
+        ]
+    },
+    "investigate_markings": {
+        "text": "The markings tell a story of an ancient civilization and a hidden treasure guarded by a mystical creature. What will you do?",
+        "choices": [
+            {
+                "text": "Search for the treasure",
+                "next": "search_treasure"
+            },
+            {
+                "text": "Leave the cave",
+                "next": "explore_forest"
+            }
+        ]
+    },
+    "search_treasure": {
+        "text": "You follow the clues from the markings and find a hidden chamber with a chest full of gold and jewels. What will you do?",
+        "choices": [
+            {
+                "text": "Take the treasure",
+                "next": "take_treasure"
+            },
+            {
+                "text": "Leave the treasure",
+                "next": "leave_treasure"
+            }
+        ]
+    },
+    "take_treasure": {
+        "text": "As you take the treasure, the ground shakes and a mystical creature appears, guarding the exit. What will you do?",
+        "choices": [
+            {
+                "text": "Fight the creature",
+                "next": "fight_creature"
+            },
+            {
+                "text": "Try to escape",
+                "next": "try_escape"
+            }
+        ]
+    },
+    "leave_treasure": {
+        "text": "You decide to leave the treasure and continue your journey, respecting the ancient guardians. What will you do next?",
+        "choices": [
+            {
+                "text": "Explore the forest",
+                "next": "explore_forest"
+            }
+        ]
+    },
+    "fight_creature": {
+        "text": "You prepare to fight the creature, using all your strength and cunning. What will you do?",
+        "choices": [
+            {
+                "text": "Attack with all your might",
+                "next": "attack_creature"
+            },
+            {
+                "text": "Try to reason with the creature",
+                "next": "reason_creature"
+            }
+        ]
+    },
+    "try_escape": {
+        "text": "You try to escape, but the creature blocks your path. You must find another way. What will you do?",
+        "choices": [
+            {
+                "text": "Fight the creature",
+                "next": "fight_creature"
+            },
+            {
+                "text": "Look for a hidden exit",
+                "next": "hidden_exit"
+            }
+        ]
+    },
+    "attack_creature": {
+        "text": "You attack the creature with all your might. After a fierce battle, you manage to defeat it and escape with the treasure. What will you do next?",
+        "choices": [
+            {
+                "text": "Continue your adventure",
+                "next": "explore_forest"
+            }
+        ]
+    },
+    "reason_creature": {
+        "text": "You try to reason with the creature, explaining that you mean no harm and are only seeking knowledge. What will you do?",
+        "choices": [
+            {
+                "text": "The creature understands and lets you pass",
+                "next": "creature_understands"
+            },
+            {
+                "text": "The creature attacks, leaving you no choice but to fight",
+                "next": "attack_creature"
+            }
+        ]
+    },
+    "hidden_exit": {
+        "text": "You find a hidden exit in the cave and manage to escape with your life, but without the treasure. What will you do next?",
+        "choices": [
+            {
+                "text": "Continue your adventure",
+                "next": "explore_forest"
+            }
+        ]
+    },
+    "creature_understands": {
+        "text": "The creature understands your intentions and allows you to leave with a piece of the treasure as a token of friendship. What will you do next?",
+        "choices": [
+            {
+                "text": "Continue your adventure",
+                "next": "explore_forest"
+            }
+        ]
+    },
+    "enjoy_waterfall": {
+        "text": "You enjoy the serenity of the waterfall, feeling at peace with nature. What will you do next?",
+        "choices": [
+            {
+                "text": "Explore the cave behind the waterfall",
+                "next": "explore_cave"
+            },
+            {
+                "text": "Return to the forest",
+                "next": "explore_forest"
+            }
+        ]
+    },
+    "enter_village": {
+        "text": "You are greeted by friendly villagers who offer you food and shelter. They tell you stories of the forest. What will you do?",
+        "choices": [
+            {
+                "text": "Stay and listen to more stories",
+                "next": "village_stories"
+            },
+            {
+                "text": "Thank them and explore the village",
+                "next": "explore_village"
+            }
+        ]
+    },
+    "village_stories": {
+        "text": "The villagers tell you about hidden treasures and ancient secrets of the forest. What will you do?",
+        "choices": [
+            {
+                "text": "Ask about the treasures",
+                "next": "ask_treasures"
+            },
+            {
+                "text": "Ask about the secrets",
+                "next": "ask_secrets"
+            }
+        ]
+    },
+    "explore_village": {
+        "text": "You explore the village and find it full of life and history. The villagers are kind and welcoming. What will you do?",
+        "choices": [
+            {
+                "text": "Stay in the village",
+                "next": "stay_village"
+            },
+            {
+                "text": "Leave the village and return to the forest",
+                "next": "explore_forest"
+            }
+        ]
+    },
+    "ask_treasures": {
+        "text": "The villagers tell you about hidden treasures buried deep in the forest. They give you a map. What will you do?",
+        "choices": [
+            {
+                "text": "Follow the map",
+                "next": "follow_map"
+            },
+            {
+                "text": "Stay in the village",
+                "next": "stay_village"
+            }
+        ]
+    },
+    "ask_secrets": {
+        "text": "The villagers reveal ancient secrets and mystical tales about the forest. What will you do?",
+        "choices": [
+            {
+                "text": "Investigate the secrets",
+                "next": "investigate_secrets"
+            },
+            {
+                "text": "Stay in the village",
+                "next": "stay_village"
+            }
+        ]
+    },
+    "stay_village": {
+        "text": "You decide to stay in the village, enjoying the hospitality and learning about the villagers' way of life. What will you do next?",
+        "choices": [
+            {
+                "text": "Start a new adventure",
+                "next": "start"
+            }
+        ]
+    },
+    "follow_map": {
+        "text": "The map leads you to a hidden treasure chest filled with gold and jewels. What will you do?",
+        "choices": [
+            {
+                "text": "Take the treasure",
+                "next": "take_treasure"
+            },
+            {
+                "text": "Leave the treasure",
+                "next": "leave_treasure"
+            }
+        ]
+    },
+    "investigate_secrets": {
+        "text": "You discover hidden truths about the forest and its magical properties. What will you do?",
+        "choices": [
+            {
+                "text": "Use the knowledge",
+                "next": "use_knowledge"
+            },
+            {
+                "text": "Keep it a secret",
+                "next": "keep_secret"
+            }
+        ]
+    },
+    "climb_tree": {
+        "text": "You climb the tree and get a better view of the surroundings. You spot a mountain in the distance. What will you do?",
+        "choices": [
+            {
+                "text": "Head towards the mountain",
+                "next": "mountain_path"
+            },
+            {
+                "text": "Climb down and continue exploring the forest",
+                "next": "continue_exploring"
+            }
+        ]
+    },
+    "continue_exploring": {
+        "text": "You discover a beautiful clearing with a sparkling stream. The water looks inviting. What will you do?",
+        "choices": [
+            {
+                "text": "Rest by the stream",
+                "next": "rest_stream"
+            },
+            {
+                "text": "Keep exploring",
+                "next": "keep_exploring"
+            }
+        ]
+    },
+    "follow_animal": {
+        "text": "The animal leads you to a hidden grove with ancient trees and a mystical aura. What will you do?",
+        "choices": [
+            {
+                "text": "Explore the grove",
+                "next": "explore_grove"
+            },
+            {
+                "text": "Return to where you were",
+                "next": "start"
+            }
+        ]
+    },
+    "explore_grove": {
+        "text": "The grove is filled with magical energy. You feel a strong connection with nature. What will you do?",
+        "choices": [
+            {
+                "text": "Meditate in the grove",
+                "next": "meditate_grove"
+            },
+            {
+                "text": "Explore the grove further",
+                "next": "explore_grove_further"
+            }
+        ]
+    },
+    "meditate_grove": {
+        "text": "You meditate in the grove, feeling a deep sense of peace and enlightenment. What will you do?",
+        "choices": [
+            {
+                "text": "Continue meditating",
+                "next": "meditate_longer"
+            },
+            {
+                "text": "Leave the grove",
+                "next": "leave_grove"
+            }
+        ]
+    },
+    "explore_grove_further": {
+        "text": "You find a hidden passage in the grove leading to a secret chamber filled with ancient artifacts. What will you do?",
+        "choices": [
+            {
+                "text": "Investigate the artifacts",
+                "next": "investigate_artifacts"
+            },
+            {
+                "text": "Leave the grove",
+                "next": "leave_grove"
+            }
+        ]
+    },
+    "investigate_artifacts": {
+        "text": "The artifacts reveal ancient knowledge and magical powers. What will you do?",
+        "choices": [
+            {
+                "text": "Use the artifacts",
+                "next": "use_artifacts"
+            },
+            {
+                "text": "Leave the artifacts",
+                "next": "leave_artifacts"
+            }
+        ]
+    },
+    "mountain_path": {
+        "text": "You head towards the mountain, finding a path that leads to its base. The journey is challenging. What will you do?",
+        "choices": [
+            {
+                "text": "Climb the mountain",
+                "next": "climb_mountain"
+            },
+            {
+                "text": "Set up camp at the base",
+                "next": "camp_base"
+            }
+        ]
+    },
+    "climb_mountain": {
+        "text": "You climb the mountain and reach the top, where you find a breathtaking view and a hidden temple. What will you do?",
+        "choices": [
+            {
+                "text": "Explore the temple",
+                "next": "explore_temple"
+            },
+            {
+                "text": "Rest and enjoy the view",
+                "next": "enjoy_view"
+            }
+        ]
+    },
+    "camp_base": {
+        "text": "You set up camp at the base of the mountain, preparing for the climb ahead. What will you do?",
+        "choices": [
+            {
+                "text": "Climb the mountain in the morning",
+                "next": "climb_mountain"
+            },
+            {
+                "text": "Explore the surrounding area",
+                "next": "explore_surroundings"
+            }
+        ]
+    },
+    "explore_temple": {
+        "text": "The temple is filled with ancient relics and mystical symbols. What will you do?",
+        "choices": [
+            {
+                "text": "Investigate the relics",
+                "next": "investigate_relics"
+            },
+            {
+                "text": "Meditate in the temple",
+                "next": "meditate_temple"
+            }
+        ]
+    },
+    "enjoy_view": {
+        "text": "You enjoy the breathtaking view from the top of the mountain, feeling a sense of accomplishment. What will you do?",
+        "choices": [
+            {
+                "text": "Descend the mountain",
+                "next": "descend_mountain"
+            },
+            {
+                "text": "Stay and rest",
+                "next": "stay_rest"
+            }
+        ]
+    },
+    "descend_mountain": {
+        "text": "You descend the mountain, feeling accomplished and ready for new adventures. What will you do next?",
+        "choices": [
+            {
+                "text": "Return to the village",
+                "next": "enter_village"
+            },
+            {
+                "text": "Explore the surrounding area",
+                "next": "explore_surroundings"
+            }
+        ]
+    },
+    "stay_rest": {
+        "text": "You rest and enjoy the view for a while longer, feeling rejuvenated. What will you do next?",
+        "choices": [
+            {
+                "text": "Descend the mountain",
+                "next": "descend_mountain"
+            }
+        ]
+    },
+    "explore_surroundings": {
+        "text": "You explore the area around the base of the mountain, discovering interesting flora and fauna. What will you do?",
+        "choices": [
+            {
+                "text": "Return to camp",
+                "next": "camp_base"
+            },
+            {
+                "text": "Keep exploring",
+                "next": "keep_exploring_surroundings"
+            }
+        ]
+    },
+    "keep_exploring_surroundings": {
+        "text": "You discover more interesting flora and fauna around the mountain. What will you do?",
+        "choices": [
+            {
+                "text": "Return to camp",
+                "next": "camp_base"
+            },
+            {
+                "text": "Continue exploring",
+                "next": "explore_surroundings"
+            }
+        ]
+    },
+    "use_artifacts": {
+        "text": "You use the artifacts to unlock hidden powers and protect the forest. What will you do next?",
+        "choices": [
+            {
+                "text": "Return to the village",
+                "next": "enter_village"
+            }
+        ]
+    },
+    "leave_artifacts": {
+        "text": "You decide to leave the artifacts and continue your adventure. What will you do next?",
+        "choices": [
+            {
+                "text": "Explore the forest",
+                "next": "explore_forest"
+            }
+        ]
+    },
+    "use_knowledge": {
+        "text": "You use the knowledge to help the villagers and protect the forest. What will you do next?",
+        "choices": [
+            {
+                "text": "Stay in the village",
+                "next": "stay_village"
+            }
+        ]
+    },
+    "keep_secret": {
+        "text": "You decide to keep the knowledge a secret and continue your adventure. What will you do next?",
+        "choices": [
+            {
+                "text": "Explore the forest",
+                "next": "explore_forest"
+            }
+        ]
+    },
+    "meditate_temple": {
+        "text": "You meditate in the temple, feeling a deep sense of peace and enlightenment. What will you do?",
+        "choices": [
+            {
+                "text": "Continue meditating",
+                "next": "meditate_longer_temple"
+            },
+            {
+                "text": "Leave the temple",
+                "next": "leave_temple"
+            }
+        ]
+    },
+    "investigate_relics": {
+        "text": "The relics reveal ancient powers and knowledge. What will you do?",
+        "choices": [
+            {
+                "text": "Use the relics",
+                "next": "use_relics"
+            },
+            {
+                "text": "Leave the temple",
+                "next": "leave_temple"
+            }
+        ]
+    },
+    "meditate_longer_temple": {
+        "text": "You feel a profound sense of peace and connection with the universe. What will you do?",
+        "choices": [
+            {
+                "text": "Leave the temple",
+                "next": "leave_temple"
+            }
+        ]
+    },
+    "use_relics": {
+        "text": "You use the relics to gain wisdom and protect the forest. What will you do next?",
+        "choices": [
+            {
+                "text": "Return to the village",
+                "next": "enter_village"
+            }
+        ]
+    },
+    "leave_temple": {
+        "text": "You leave the temple, feeling enlightened and ready for new adventures. What will you do?",
+        "choices": [
+            {
+                "text": "Descend the mountain",
+                "next": "descend_mountain"
+            },
+            {
+                "text": "Explore the surrounding area",
+                "next": "explore_surroundings"
+            }
+        ]
+    }
 }

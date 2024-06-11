@@ -149,3 +149,18 @@ body.dark .choice-button:hover {
 .checkbox:checked + .checkbox-label .ball {
   transform: translateX(24px);
 }
+
+footer {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #777;
+}
+
+footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+body.dark footer a {
+  color: #8e44ad;
+}
